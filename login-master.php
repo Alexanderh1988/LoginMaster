@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('127.0.0.1', 'root', '', 'chs44206_dbhstech');
+$db = mysqli_connect('127.0.0.1', 'root', '', 'dataasename');
 
 if(mysqli_connect_error()) {
     echo 'Database connection failed with following errors: '.mysqli_connect_error();
